@@ -24,6 +24,12 @@ Keuntungan menggunakan Terminal
       
       ![image](https://user-images.githubusercontent.com/40049149/187905757-ba7b3ee8-c75e-4907-aa8c-752b704c2cbf.png)
       
+        cat kata kata1 > kata2
+        
+      untuk menggabungkan teks dari file 1 dan file 2 ke dalam file yang ke 3
+      
+      ![image](https://user-images.githubusercontent.com/40049149/187906698-8cbe94a5-69da-4121-b3e9-2bc7f79eccca.png)
+      
       
 
 2. __sed__ digunakan untuk mereplace suatu text dalam file
