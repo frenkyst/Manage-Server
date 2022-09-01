@@ -56,11 +56,17 @@ Keuntungan menggunakan Terminal
 
 5. __echo__ digunakan untuk menampilkan text pada terminal
 
+        echo "Hello Wed!"
 
+      ![image](https://user-images.githubusercontent.com/40049149/187903939-37c2474d-b75d-4a6a-a236-3b520f180a4d.png)
 
+        echo "Hello Wed2!" >> kata
 
+      ![image](https://user-images.githubusercontent.com/40049149/187904258-4f90f40b-0a01-49b3-900f-3cbecc23e8b4.png)
 
-
+        echo "timpa semua kata" > kata
+        
+      ![image](https://user-images.githubusercontent.com/40049149/187904496-66a02853-b07a-4fa4-bc26-846c5bb27ba4.png)
 
 
 
