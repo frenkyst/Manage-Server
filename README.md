@@ -204,8 +204,32 @@ keterangan : untuk menampilkan proses pada user “your-user”
 
 keterangan : untuk menampilkan seluruh proses secara lengkap
 
+### Bash
 
+Script bash untuk update dan upgrade
+1. Buat file baru dengan nama __autoupdate.sh__(bebas) dan isikan berikut
 
+        #!/bin/bash
+
+        sudo apt-get -y update
+        sudo apt-get -y upgrade
+
+![image](https://user-images.githubusercontent.com/40049149/187913821-9f6ead19-b5bd-4886-a07d-4e218e5742c1.png)
+
+2. Tambahkan permission execute di file yang kita buat tadi __autoupdate.sh__ dengan command chmod
+
+        chmod +x autoupdate.sh
+        ls -l
+
+![image](https://user-images.githubusercontent.com/40049149/187914189-2afc4c59-5402-436c-bfbd-f099fe4972c4.png)
+
+3. Jalankan script dengan command berikut
+
+        ./autoupdate.sh
+        atau
+        bash autoupdate.sh
+
+![image](https://user-images.githubusercontent.com/40049149/187914424-5613bb29-b5fc-4952-ac43-b706eefd7ac5.png)
 
 
 
