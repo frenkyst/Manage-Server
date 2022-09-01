@@ -233,7 +233,7 @@ Script bash untuk update dan upgrade
 
 script bash untuk mencari file sysctl.conf
 
-1. Buat file baru dengan nama __search.sh__(bebas)  dan isikan berikut
+1. Buat file baru dengan nama __search.sh__(bebas) dan isikan berikut
 
         #!/bin/bash
 
@@ -256,6 +256,31 @@ script bash untuk mencari file sysctl.conf
 
 ![image](https://user-images.githubusercontent.com/40049149/187915866-15b96437-9f7c-45d2-aebc-ec971efa530b.png)
 
+script bash untuk membuka firewall port 22, 80, dan 443
 
+1. Buat file baru dengan nama __firewall.sh__(bebas) dan isikan berikut
 
+        #!/bin/bash
+
+        sudo ufw allow ssh
+        sudo ufw allow http
+        sudo ufw allow https
+        yes | sudo ufw enable
+
+![image](https://user-images.githubusercontent.com/40049149/187917313-b24fdcb9-5ec9-417a-9565-5c2955e9c02e.png)
+
+2. Tambahkan permission execute di file yang kita buat tadi __firewall.sh__ dengan command chmod
+
+        chmod +x firewall.sh
+        ls -l
+
+![image](https://user-images.githubusercontent.com/40049149/187917448-5b733fcf-7181-48ef-927d-1fc708f757f2.png)
+
+3. Jalankan script dengan command berikut
+
+        ./firewall.sh
+        atau
+        bash firewall.sh
+
+![image](https://user-images.githubusercontent.com/40049149/187917562-e81c2ae4-e16d-4d96-9bcc-4f214ebe412c.png)
 
