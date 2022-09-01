@@ -17,6 +17,14 @@ Keuntungan menggunakan Terminal
         cat (name-file)
 
       ![image](https://user-images.githubusercontent.com/40049149/187897542-3973d1c1-0aec-402f-bb19-ff01e377372c.png)
+      
+        cat > kata1
+
+      untuk membuat suatu file dan juga memasukan text di file tersebut (Ctrl + C jika sudah)
+      
+      ![image](https://user-images.githubusercontent.com/40049149/187905757-ba7b3ee8-c75e-4907-aa8c-752b704c2cbf.png)
+      
+      
 
 2. __sed__ digunakan untuk mereplace suatu text dalam file
 
