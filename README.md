@@ -193,12 +193,14 @@ __Ps__ merupakan singkatan dari process status, untuk mengetahui daftar proses y
 Berikut adalah contoh penggunaan :
 
         ps -f -u (your-user)
-
+        
+ file:///home/menther/Pictures/Screenshots/Screenshot%20from%202022-09-01%2019-12-38.png
 
 keterangan : untuk menampilkan proses pada user “your-user”
 
         ps -aux
 
+ file:///home/menther/Pictures/Screenshots/Screenshot%20from%202022-09-01%2019-12-53.png
 
 keterangan : untuk menampilkan seluruh proses secara lengkap
 
