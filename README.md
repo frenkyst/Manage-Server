@@ -231,8 +231,30 @@ Script bash untuk update dan upgrade
 
 ![image](https://user-images.githubusercontent.com/40049149/187914424-5613bb29-b5fc-4952-ac43-b706eefd7ac5.png)
 
+script bash untuk mencari file sysctl.conf
 
+1. Buat file baru dengan nama __search.sh__(bebas)  dan isikan berikut
 
+        #!/bin/bash
+
+        sudo find / -name sysctl.conf -type f
+
+![image](https://user-images.githubusercontent.com/40049149/187915671-8ee9f90c-bcd0-4feb-9874-510cf607793b.png)
+
+2. Tambahkan permission execute di file yang kita buat tadi __search.sh__ dengan command chmod
+
+        chmod +x search.sh
+        ls -l
+
+![image](https://user-images.githubusercontent.com/40049149/187915799-2514dfdf-06ff-4147-8fdf-becd01b02f6e.png)
+
+3. Jalankan script dengan command berikut
+
+        ./search.sh
+        atau
+        bash search.sh
+
+![image](https://user-images.githubusercontent.com/40049149/187915866-15b96437-9f7c-45d2-aebc-ec971efa530b.png)
 
 
 
