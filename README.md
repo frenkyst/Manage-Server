@@ -284,3 +284,4 @@ script bash untuk membuka firewall port 22, 80, dan 443
 
 ![image](https://user-images.githubusercontent.com/40049149/187917562-e81c2ae4-e16d-4d96-9bcc-4f214ebe412c.png)
 
+![image](https://user-images.githubusercontent.com/40049149/187917837-a5b40080-a77f-491e-bc36-43852c75fee4.png)
