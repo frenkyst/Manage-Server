@@ -131,6 +131,9 @@ Keterangan :
 - VIRT adalah memory yang terpakai.
 - Command adalah perintah apa yang sedang di jalankan.
 
+
+### nmon
+
 __nmon__ sama halnya dengan htop digunakan untuk memonitoring kinerja dari server
 
 Pada tampilan awal terdapat beberapa pilihan yang dapat kita gunakan, berikut hanyalah contoh penggunaannya :
@@ -149,41 +152,54 @@ Untuk menjalankan nmon kalian dapat menggunakan perintah dibawah ini
 
 Keterangan : Disini kita dapat memilih ingin memonitoring apa saja, Disini kita coba saja untuk menampilkan beberapa saja.
 
-c adalah CPU
-m adalah Memory
-d adalah Disk
-n adalah network
+- c adalah CPU
+- m adalah Memory
+- d adalah Disk
+- n adalah network
+
 Berikut adalah tampilan dari nmon untuk menampilkan cpu, memory, disk, dan network
 
-image1
-lsof​
-Lsof merupakan singkatan list open files, berfungsi untuk melihat seluruh file yang terbuka berdasarkan proses aktif yang berjalan di sistem.
+![image](https://user-images.githubusercontent.com/40049149/187909725-0d54874f-1676-48f8-9da6-4b90f0459a23.png)
+
+
+### lsof​
+
+__Lsof__ merupakan singkatan list open files, berfungsi untuk melihat seluruh file yang terbuka berdasarkan proses aktif yang berjalan di sistem.
 
 Berikut adalah contoh penggunaan :
 
-lsof
-image1
+        lsof
+
+![image](https://user-images.githubusercontent.com/40049149/187910128-6c2bea6f-5edb-4d10-95a6-b6e4dfe8b5f9.png)
+
 keterangan : untuk menampilkan seluruh proses
 
-lsof -u (your-user)
-image1
+        lsof -u (your-user)
+
+![image](https://user-images.githubusercontent.com/40049149/187910183-24737bd5-102e-4c8b-8eac-e02383c8014d.png)
+
 keterangan : menampilkan proses yang dilakukan oleh user “your-user”
 
-lsof -i :80
+        lsof -i :80
+
 image1
+
 keterangan : untuk menampilkan proses yang menggunakan port 80
 
-ps​
-Ps merupakan singkatan dari process status, untuk mengetahui daftar proses yang berjalan pada sistem.
+### ps​
+
+__Ps__ merupakan singkatan dari process status, untuk mengetahui daftar proses yang berjalan pada sistem.
 
 Berikut adalah contoh penggunaan :
 
-ps -f -u (your-user)
-image1
+        ps -f -u (your-user)
+
+
 keterangan : untuk menampilkan proses pada user “your-user”
 
-ps -aux
-image1
+        ps -aux
+
+
 keterangan : untuk menampilkan seluruh proses secara lengkap
 
 
