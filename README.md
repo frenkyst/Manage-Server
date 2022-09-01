@@ -194,7 +194,7 @@ Berikut adalah contoh penggunaan :
 
         ps -f -u (your-user)
         
-![Uploading Screenshot from 2022-09-01 19-12-38.png…]()
+![Screenshot from 2022-09-01 19-12-38](https://user-images.githubusercontent.com/40049149/187912074-94775849-ab33-4aa5-9490-9d2daf0128cd.png)
 
 keterangan : untuk menampilkan proses pada user “your-user”
 
