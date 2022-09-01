@@ -194,13 +194,13 @@ Berikut adalah contoh penggunaan :
 
         ps -f -u (your-user)
         
- file:///home/menther/Pictures/Screenshots/Screenshot%20from%202022-09-01%2019-12-38.png
+![Uploading Screenshot from 2022-09-01 19-12-38.png…]()
 
 keterangan : untuk menampilkan proses pada user “your-user”
 
         ps -aux
 
- file:///home/menther/Pictures/Screenshots/Screenshot%20from%202022-09-01%2019-12-53.png
+![Screenshot from 2022-09-01 19-12-53](https://user-images.githubusercontent.com/40049149/187911840-be5ae84a-0cc4-41c8-a3ac-d85bd727393e.png)
 
 keterangan : untuk menampilkan seluruh proses secara lengkap
 
